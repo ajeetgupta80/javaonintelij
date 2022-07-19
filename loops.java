@@ -9,6 +9,7 @@ public class loops {
         float tempc = in.nextFloat();
         float tempf = (tempc * 9/5) + 32;
         System.out.println(tempf);
+//        for loop is similar to cPP
 
     }
 }
