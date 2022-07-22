@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class armstrong {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        
+
 //        int n = input.nextInt();
 //        System.out.println(isarmstrong(n));
 //        printing all the armstrong numbers between 100 to 1000
