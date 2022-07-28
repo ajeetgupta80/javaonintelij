@@ -25,7 +25,7 @@ public class noofduplicatenumber {
         List<Integer> ans = new ArrayList<>();
         for(int index= 1; index<nums.length; index++)
         {
-            ans.add(index);
+            ans.add(index+1);
         }
         return ans;
 
