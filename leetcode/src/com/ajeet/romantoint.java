@@ -29,7 +29,6 @@ public class romantoint {
                 sum-= roman.get(s.charAt(i));
             }
 
-
         }
         return sum + roman.get(s.charAt(s.length()-1));
 
