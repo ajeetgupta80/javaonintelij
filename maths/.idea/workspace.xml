@@ -26,13 +26,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/AJEET BROCK/Desktop/coding/javaleraning/javalearning/src/resursion"
   }
-}</component>
-  <component name="RunManager" selected="Application.factors">
+}]]></component>
+  <component name="RunManager" selected="Application.lcm">
     <configuration name="factors" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="factors" />
       <module name="maths" />
@@ -40,15 +41,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="newtonraphson" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="newtonraphson" />
+    <configuration name="lcm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lcm" />
       <module name="maths" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="primeno" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="primeno" />
+    <configuration name="newtonraphson" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="newtonraphson" />
       <module name="maths" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -70,11 +71,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.lcm" />
         <item itemvalue="Application.factors" />
         <item itemvalue="Application.newtonraphson" />
         <item itemvalue="Application.squareroot" />
         <item itemvalue="Application.seive" />
-        <item itemvalue="Application.primeno" />
       </list>
     </recent_temporary>
   </component>

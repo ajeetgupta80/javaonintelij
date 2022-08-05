@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4fe60ab4-dbe7-41c0-9a54-7c62d83c7d3a" name="Changes" comment="" />
+    <list default="true" id="4fe60ab4-dbe7-41c0-9a54-7c62d83c7d3a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../maths/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../maths/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maths/out/production/maths/factors.class" beforeDir="false" afterPath="$PROJECT_DIR$/../maths/out/production/maths/factors.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,26 +33,40 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/AJEET BROCK/Desktop/coding/javaleraning/javalearning/src/leetcode"
+    "last_opened_file_path": "C:/Users/AJEET BROCK/Desktop/coding/javaleraning/javalearning/src/resursion"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.binaraysearch">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+  <component name="RunManager" selected="Application.leetcodeSTEPS">
+    <configuration name="countzeros" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="countzeros" />
       <module name="resursion" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="binaraysearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="binaraysearch" />
+    <configuration name="leetcodeSTEPS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcodeSTEPS" />
       <module name="resursion" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="fibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fibonacci" />
+    <configuration name="reverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="reverse" />
+      <module name="resursion" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="reversenumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="reversenumber" />
+      <module name="resursion" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="reverseprint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="reverseprint" />
       <module name="resursion" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -57,9 +74,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.binaraysearch" />
-        <item itemvalue="Application.fibonacci" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.leetcodeSTEPS" />
+        <item itemvalue="Application.countzeros" />
+        <item itemvalue="Application.reverse" />
+        <item itemvalue="Application.reversenumber" />
+        <item itemvalue="Application.reverseprint" />
       </list>
     </recent_temporary>
   </component>
