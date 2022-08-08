@@ -4,7 +4,7 @@ public class mergesortINPLACE {
     public static void main(String[] args) {
         int[] arr = {5,4,3,2,1};
          divide(arr,0,arr.length);
-        System.out.println(a);
+        System.out.println(Arrays.toString(arr));
 
     }
     static void divide(int[] arr, int s, int e)
@@ -60,8 +60,6 @@ public class mergesortINPLACE {
         for(int l=0; l<mix.length; l++)
         {
             arr[s+l]= mix[l];
-
-
         }
 
     }
