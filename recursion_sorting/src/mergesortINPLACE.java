@@ -1,7 +1,10 @@
+import java.util.Arrays;
+
 public class mergesortINPLACE {
     public static void main(String[] args) {
         int[] arr = {5,4,3,2,1};
-        divide(arr,0,arr.length);
+         divide(arr,0,arr.length);
+        System.out.println(a);
 
     }
     static void divide(int[] arr, int s, int e)
@@ -21,11 +24,43 @@ public class mergesortINPLACE {
     {
         int[] mix = new int[e-s];
         int ind1 = s;
-        int ind2 = mid+1;
+        int ind2 = mid;
         int k =0;
 
         while(ind1<s && ind2<e)
         {
+            if(arr[ind1]<arr[ind2])
+            {
+                mix[k]= arr[ind1];
+                ind1++;
+            }
+            else
+            {
+                mix[k]=arr[ind2];
+                ind2++;
+
+            }
+            k++;
+
+        }
+
+        while(ind1<mid)
+        {
+            mix[k]= arr[ind1];
+            ind1++;
+            k++;
+        }
+        while(ind2<e)
+        {
+            mix[k]= arr[ind2];
+            ind2++;
+            k++;
+        }
+
+        for(int l=0; l<mix.length; l++)
+        {
+            arr[s+l]= mix[l];
+
 
         }
 

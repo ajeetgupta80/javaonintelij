@@ -32,7 +32,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.arithmetictriplet">
+  <component name="RunManager" selected="Application.mergesortINPLACE">
     <configuration name="arithmetictriplet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="arithmetictriplet" />
       <module name="recursion_sorting" />
@@ -54,8 +54,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="pattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pattern" />
+    <configuration name="mergesortINPLACE" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mergesortINPLACE" />
       <module name="recursion_sorting" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -70,11 +70,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.mergesortINPLACE" />
         <item itemvalue="Application.arithmetictriplet" />
         <item itemvalue="Application.mergesort" />
         <item itemvalue="Application.selectionsort" />
         <item itemvalue="Application.bubblesort" />
-        <item itemvalue="Application.pattern" />
       </list>
     </recent_temporary>
   </component>
