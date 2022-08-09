@@ -32,16 +32,9 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.mergesortINPLACE">
+  <component name="RunManager" selected="Application.quicksort">
     <configuration name="arithmetictriplet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="arithmetictriplet" />
-      <module name="recursion_sorting" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="bubblesort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bubblesort" />
       <module name="recursion_sorting" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -61,6 +54,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="quicksort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="quicksort" />
+      <module name="recursion_sorting" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="selectionsort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="selectionsort" />
       <module name="recursion_sorting" />
@@ -70,11 +70,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.quicksort" />
         <item itemvalue="Application.mergesortINPLACE" />
         <item itemvalue="Application.arithmetictriplet" />
         <item itemvalue="Application.mergesort" />
         <item itemvalue="Application.selectionsort" />
-        <item itemvalue="Application.bubblesort" />
       </list>
     </recent_temporary>
   </component>
@@ -104,13 +104,13 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/mergesortINPLACE.java</url>
-          <line>3</line>
-          <properties class="mergesortINPLACE" method="main">
+          <url>file://$PROJECT_DIR$/src/quicksort.java</url>
+          <line>9</line>
+          <properties class="quicksort" method="sort">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
-          <option name="timeStamp" value="2" />
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

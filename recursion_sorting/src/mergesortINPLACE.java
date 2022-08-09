@@ -27,7 +27,7 @@ public class mergesortINPLACE {
         int ind2 = mid;
         int k =0;
 
-        while(ind1<s && ind2<e)
+        while(ind1<mid && ind2<e)
         {
             if(arr[ind1]<arr[ind2])
             {
