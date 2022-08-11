@@ -32,7 +32,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.SKIPaCHARACTER">
+  <component name="RunManager" selected="Application.skipajnotajeet">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="recursion-strings-subsequent" />
@@ -47,8 +47,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="skipSTRING" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="skipSTRING" />
+      <module name="recursion-strings-subsequent" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="skipajnotajeet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="skipajnotajeet" />
+      <module name="recursion-strings-subsequent" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.skipajnotajeet" />
+        <item itemvalue="Application.skipSTRING" />
         <item itemvalue="Application.SKIPaCHARACTER" />
         <item itemvalue="Application.Main" />
       </list>
