@@ -32,9 +32,9 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.skipajnotajeet">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+  <component name="RunManager" selected="Application.SHUFFLEARRAY">
+    <configuration name="SHUFFLEARRAY" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SHUFFLEARRAY" />
       <module name="recursion-strings-subsequent" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -61,12 +61,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="subsets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="subsets" />
+      <module name="recursion-strings-subsequent" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SHUFFLEARRAY" />
+        <item itemvalue="Application.subsets" />
         <item itemvalue="Application.skipajnotajeet" />
         <item itemvalue="Application.skipSTRING" />
         <item itemvalue="Application.SKIPaCHARACTER" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
