@@ -32,9 +32,9 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.asciivalue">
-    <configuration name="SHUFFLEARRAY" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SHUFFLEARRAY" />
+  <component name="RunManager" selected="Application.twosum">
+    <configuration name="asciiSubset" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="asciiSubset" />
       <module name="recursion-strings-subsequent" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -42,13 +42,6 @@
     </configuration>
     <configuration name="asciivalue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="asciivalue" />
-      <module name="recursion-strings-subsequent" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="skipajnotajeet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="skipajnotajeet" />
       <module name="recursion-strings-subsequent" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -68,13 +61,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="twosum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="twosum" />
+      <module name="recursion-strings-subsequent" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.twosum" />
+        <item itemvalue="Application.asciiSubset" />
         <item itemvalue="Application.asciivalue" />
         <item itemvalue="Application.subsetArrayList" />
         <item itemvalue="Application.subsets" />
-        <item itemvalue="Application.SHUFFLEARRAY" />
-        <item itemvalue="Application.skipajnotajeet" />
       </list>
     </recent_temporary>
   </component>
@@ -111,6 +111,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/asciiSubset.java</url>
+          <line>24</line>
+          <properties class="asciiSubset" method="ascii">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

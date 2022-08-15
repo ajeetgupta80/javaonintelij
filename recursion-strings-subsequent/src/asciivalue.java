@@ -1,7 +1,10 @@
 public class asciivalue {
+
     public static void main(String[] args) {
+
         char ch ='a';
         ascii(ch);
+
     }
     static void ascii(char ch)
     {
