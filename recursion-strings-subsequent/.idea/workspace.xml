@@ -32,7 +32,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.twosum">
+  <component name="RunManager" selected="Application.permutationcount">
     <configuration name="asciiSubset" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="asciiSubset" />
       <module name="recursion-strings-subsequent" />
@@ -47,15 +47,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="subsetArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="subsetArrayList" />
+    <configuration name="permutationcount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="permutationcount" />
       <module name="recursion-strings-subsequent" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="subsets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="subsets" />
+    <configuration name="permutations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="permutations" />
       <module name="recursion-strings-subsequent" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -70,11 +70,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.permutationcount" />
+        <item itemvalue="Application.permutations" />
         <item itemvalue="Application.twosum" />
         <item itemvalue="Application.asciiSubset" />
         <item itemvalue="Application.asciivalue" />
-        <item itemvalue="Application.subsetArrayList" />
-        <item itemvalue="Application.subsets" />
       </list>
     </recent_temporary>
   </component>
@@ -120,6 +120,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/permutations.java</url>
+          <line>28</line>
+          <properties class="permutations" method="permu">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
