@@ -5,6 +5,7 @@ public class kadanealgo {
         System.out.println(ans);
 
     }
+//   this is not recursion question it is the arrays algorithm to find the subarray
     static int maxxi(int[] arr)
     {
         int sum=0;
