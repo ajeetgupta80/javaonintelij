@@ -5,12 +5,13 @@ public class Main {
     }
     static int count(int row , int col)
     {
+//        after it come on either row 1 or col 1 there only remain one way to go on target
         if(row ==1 || col ==1)
         {
             return 1;
         }
-        int left = count(row-1, col);
-        int right = count(row , col-1);
+        int left = count(row, col-1);
+        int right = count(row -1, col);
 
         return left +right;
     }
