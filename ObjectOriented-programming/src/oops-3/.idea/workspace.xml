@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9bb4ff59-f163-4a3f-850f-8dd86f60eeb1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../oops-2/out/production/oops-2/statiC.class" beforeDir="false" afterPath="$PROJECT_DIR$/../oops-2/out/production/oops-2/statiC.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../oops-2/src/statiC.java" beforeDir="false" afterPath="$PROJECT_DIR$/../oops-2/src/statiC.java" afterDir="false" />
-    </list>
+    <list default="true" id="9bb4ff59-f163-4a3f-850f-8dd86f60eeb1" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
