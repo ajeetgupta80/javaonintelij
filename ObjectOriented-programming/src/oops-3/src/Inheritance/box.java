@@ -1,4 +1,4 @@
-package ajeet;
+package Inheritance;
 
 public class box {
     double l;
