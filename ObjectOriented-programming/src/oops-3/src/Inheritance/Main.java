@@ -14,6 +14,8 @@ public class Main {
     boxweight ajeet = new boxweight();
     boxweight abhay = new boxweight(50,50,70,70);
         System.out.println(ajeet.h + " " + ajeet.weight);
+
+
         System.out.println(abhay.weight+" fuck u bitch"+ abhay.l);
     }
 }

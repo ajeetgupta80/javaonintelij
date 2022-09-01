@@ -32,7 +32,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Inheritance.Main">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Inheritance.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Inheritance.Main" />
       <module name="oops-3" />
@@ -68,9 +68,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Inheritance.Main" />
-        <item itemvalue="Application.ajeet.boxx" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Inheritance.Main" />
       </list>
     </recent_temporary>
   </component>
