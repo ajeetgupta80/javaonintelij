@@ -7,6 +7,7 @@ public class box {
 
     box()
     {
+        super(); // its not giving error becose box is derived from a superclass objects
         this.l=0;
         this.w=0;
         this.h=0;
