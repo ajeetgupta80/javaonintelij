@@ -4,7 +4,7 @@ public class NKnights {
     public static void main(String[] args) {
         int n =4;
         boolean[][] boards = new boolean[n][n];
-        knight(boards , 0,0,4);
+        knight(boards , 0,4);
 
     }
     static void knight(boolean[][] boards, int row , int col, int night)
