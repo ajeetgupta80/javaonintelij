@@ -8,6 +8,9 @@ public class buysellstock {
     {
         int minprice = Integer.MAX_VALUE;
         int maxprofi = 0;
+
+
+
         for(int i =0; i<prices.length; i++)
         {
             if(prices[i]<minprice)
