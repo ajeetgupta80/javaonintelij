@@ -45,5 +45,7 @@ public class Objectdemo {
             System.out.println(sj.hashCode());
             System.out.println(aj.hashCode());
 
+
+
     }
 }
