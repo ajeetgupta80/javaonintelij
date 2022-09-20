@@ -16,4 +16,23 @@ public abstract class parent {
 
     abstract void carrer();
     abstract void partner();
+
+
+//    you cannot cretate abstrac static mehtod because abstract needs to be overriden and static dont allows overridens
+    // also you cannot create abstract constructors
+
+//    abstract static void hello()
+//    {
+//        System.out.println("hey");
+//    }
+
+    static void hello()
+    {
+        System.out.println("hey");
+    }
+
+    void normal()
+    {
+        System.out.println("iam the normal one");
+    }
 }

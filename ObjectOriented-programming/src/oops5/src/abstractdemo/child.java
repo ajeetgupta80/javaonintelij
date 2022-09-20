@@ -11,6 +11,12 @@ public class child extends parent {
     }
 
     @Override
+    void normal()
+    {
+        super.normal();
+    }
+
+    @Override
     void carrer() {
         System.out.println("i am going to be an engineer");
     }
