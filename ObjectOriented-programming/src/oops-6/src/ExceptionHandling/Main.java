@@ -7,7 +7,16 @@ public class Main {
 
         try{
 //            int c = a/b;
-            divide(a,b);
+//            divide(a,b);
+
+
+            String name = "ajeet";
+            throw new myException("name is ajeet");
+
+        }
+        catch(myException e)
+        {
+            System.out.println(e.getMessage());
         }
 
 

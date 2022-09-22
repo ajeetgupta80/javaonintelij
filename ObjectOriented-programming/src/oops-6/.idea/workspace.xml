@@ -32,39 +32,13 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.demo">
+  <component name="RunManager" selected="Application.shallow_deep.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ExceptionHandling.Main" />
       <module name="oops-6" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ExceptionHandling.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="comparingObjects.Main2" />
-      <module name="oops-6" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="comparingObjects.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="comparingObjects.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="comparingObjects.Main" />
-      <module name="oops-6" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="comparingObjects.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,13 +72,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="objectCloning.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="objectCloning.Main" />
+      <module name="oops-6" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="objectCloning.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="shallow_deep.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="shallow_deep.Main" />
+      <module name="oops-6" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="shallow_deep.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.demo" />
+        <item itemvalue="Application.shallow_deep.Main" />
+        <item itemvalue="Application.objectCloning.Main" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.demo" />
         <item itemvalue="Application.lambdaFunction.Main" />
-        <item itemvalue="Application.Main2" />
-        <item itemvalue="Application.comparingObjects.Main" />
       </list>
     </recent_temporary>
   </component>
