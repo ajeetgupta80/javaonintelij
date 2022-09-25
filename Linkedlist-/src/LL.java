@@ -26,6 +26,7 @@ public class LL {
             tail = head;
         }
         size+=1;
+
     }
 
     public void display()
@@ -41,6 +42,30 @@ public class LL {
     public int getSize()
     {
         return size;
+    }
+
+    public void insert(int val , int index)
+    {
+        if(index == 0)
+        {
+            insertFirst(val);
+            return;
+        }
+        if(index == size)
+        {
+            insertLast(val);
+            return;
+        }
+        Node temp = head;
+        for(int i=1; i<index; i++)
+        {
+            temp = temp.next;
+        }
+        Node node = new Node(val, temp.next);
+        temp.next =node;
+
+        size+=1;
+
     }
 
     public void insertLast(int val)

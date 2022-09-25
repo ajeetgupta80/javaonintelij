@@ -12,6 +12,7 @@ public class Main {
         list.insertFirst(93);
         list.insertFirst(1);
         list.insertLast(599);
+        list.insert(4,3);
         System.out.println(list.getSize());
         list.display();
 
