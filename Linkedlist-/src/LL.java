@@ -68,6 +68,18 @@ public class LL {
 
     }
 
+    public int deleteFirst()
+    {
+        int val = head.value;
+        head = head.next;
+        if(head == null)
+        {
+            tail = null;
+        }
+        size--;
+        return val;
+    }
+
     public void insertLast(int val)
     {
         if(tail == null)

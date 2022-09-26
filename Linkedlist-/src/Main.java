@@ -13,7 +13,10 @@ public class Main {
         list.insertFirst(1);
         list.insertLast(599);
         list.insert(4,3);
-        System.out.println(list.getSize());
+//        System.out.println(list.getSize());
+        list.display();
+        System.out.println();
+        System.out.println(list.deleteFirst());
         list.display();
 
 
