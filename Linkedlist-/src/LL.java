@@ -67,18 +67,19 @@ public class LL {
         size+=1;
 
     }
-
     public int deleteFirst()
     {
-        int val = head.value;
+        int temp = head.value;
         head = head.next;
         if(head == null)
         {
             tail = null;
         }
         size--;
-        return val;
+        return temp;
     }
+
+
 
     public void insertLast(int val)
     {
@@ -110,6 +111,8 @@ public class LL {
         }
 
     }
+
+
 
 
 }
