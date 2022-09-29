@@ -13,7 +13,6 @@ public class LL {
         this.size=0;
     }
 
-
     public void insertFirst(int val)
     {
         // create a new node first off all
@@ -88,11 +87,7 @@ public class LL {
         int val = tail.value;
         tail = secondlast;
         tail.next= null;
-
-
         return val;
-
-
     }
     public Node get(int index)
     {
@@ -102,6 +97,24 @@ public class LL {
             node = node.next;
         }
         return node;
+    }
+
+    public int delete(int index)
+    {
+        if(index == 0)
+        {
+            return deleteFirst();
+        }
+        if(index == size-1)
+        {
+            return deleteLast();
+        }
+
+        Node prev = get(index-1);
+        int val = prev.next.value;
+        prev.next = prev.next.next;
+
+        return val;
     }
 
 
@@ -117,6 +130,20 @@ public class LL {
         tail.next = node;
         tail = node;
         size++;
+
+    }
+
+    public Node find(int value)
+    {
+        Node node = head;
+        while(node!=null)
+        {
+            if(node.value == value)
+                return node;
+
+            node = node.next;
+        }
+        return null;
 
     }
 
