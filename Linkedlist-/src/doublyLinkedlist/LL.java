@@ -8,19 +8,21 @@ public class LL {
     {
         Node node = new Node(val);
         node.next = head;
+        node.prev = null;
         if(head != null)
         {
-            node.prev = null;
+            node.prev = node;
         }
-        head = null;
+        head = node;
     }
 
     public void display()
     {
         Node node = head;
-        while(head!=null)
+        while(node!=null)
         {
-
+            System.out.print(node.val + "->");
+            node = node.next;
         }
     }
 
