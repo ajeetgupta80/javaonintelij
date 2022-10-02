@@ -24,6 +24,12 @@ public class Main {
         System.out.println();
         System.out.println(list.delete(2));
         list.display();
+        System.out.println();
+        list.insertrec(91, 2);
+        list.insertrec(91,2);
+//        list.removeDuplicates();
+        list.display();
+
 
 
 

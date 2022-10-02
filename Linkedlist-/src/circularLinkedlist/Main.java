@@ -11,5 +11,6 @@ public class Main {
         System.out.println(list.getSize());
         list.delete(3);
        list.display();
+
     }
 }
