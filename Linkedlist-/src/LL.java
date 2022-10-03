@@ -38,7 +38,7 @@ public class LL {
         }
     }
 
-    public int getSize()
+    public int getSiz()
     {
         return size;
     }
