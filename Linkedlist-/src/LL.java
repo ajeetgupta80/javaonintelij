@@ -204,6 +204,28 @@ public class LL {
 
     }
 
+    // find if the cycle is present or not in the linked list
+
+    boolean hascycle(Node head)  {
+        Node slow = head;
+        Node fast = head;
+        while (fast != null && fast.next != null)
+        {
+            fast = fast.next.next;
+            slow = slow.next;
+            if(fast == slow)
+            {
+                return true;
+            }
+
+        }
+        return false;
+
+    }
+
+
+
+
 
 
     public static void main(String[] args) {
