@@ -206,7 +206,7 @@ public class LL {
 
     // find if the cycle is present or not in the linked list
 
-    boolean hascycle(Node head)  {
+    public boolean hascycle(Node head)  {
         Node slow = head;
         Node fast = head;
         while (fast != null && fast.next != null)
@@ -223,6 +223,82 @@ public class LL {
 
     }
 
+    // finding the length of the cycle in linked list if it is present
+
+
+    public int lengthofcycle(Node head)  {
+        Node slow = head;
+        Node fast = head;
+        while (fast != null && fast.next != null)
+        {
+            fast = fast.next.next;
+            slow = slow.next;
+            // first we have to check if the cycle is present
+            if(fast == slow)
+            {
+                int lenght = 0;
+                Node temp = slow;
+                do{
+                    temp = temp.next;
+                    lenght++;
+                }while(temp != fast);
+                return lenght;
+
+            }
+
+        }
+       return 0;
+
+    }
+
+
+    public Node returnnode(Node head)
+    {
+        int lenght = 0;
+        Node slow = head;
+        Node fast = head;
+        while(fast != null && fast.next != null)
+        {
+            fast = fast.next.next;
+            slow = slow.next;
+            if(fast == slow)
+            {
+                lenght = lengthofcycle(slow);
+                break;
+            }
+
+        }
+//        for getting the first node
+        Node f = head;
+        Node s = head;
+
+        while(lenght>0)
+        {
+            s = s.next;
+            lenght--;
+
+        }
+
+        while(f!=s)
+        {
+            f = f.next;
+            s=s.next;
+        }
+        return f;
+    }
+
+    public Node getmid(Node head)
+    {
+        Node fast = head;
+        Node slow = head;
+        while(fast != null && fast.next !=null)
+        {
+            fast = fast.next.next;
+            slow = slow.next;
+        }
+        return slow;
+    }
+
 
 
 
@@ -230,16 +306,16 @@ public class LL {
 
     public static void main(String[] args) {
         LL list = new LL();
-        list.insertLast(1);
+        list.insertLast(3);
         list.insertLast(1);
         list.insertLast(2);
-        list.insertLast(2);
-        list.insertLast(3);
-        list.insertLast(3);
+        list.insertLast(5);
+        list.insertLast(6);
+        list.insertLast(7);
+
         list.display();
-        System.out.println();
-        list.removeDuplicates();
-        list.display();
+
+
     }
 
 
